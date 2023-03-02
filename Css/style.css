@@ -73,7 +73,7 @@ ul.top_menu {
 }
 
 .side_menu li{
-  background-color: #F5B4B3;
+  background-color: #FCECEC;
   height: 6rem;
   margin-bottom: 10px;
 }
@@ -88,7 +88,7 @@ ul.top_menu {
 
 .side_menu li a{
   font-size:2rem;
-  color: #fff;
+  color: #4D4D4D;
   text-decoration: none;
   display: block;
   padding: 2px;
@@ -120,7 +120,7 @@ th {
   width: 150px;
   text-align: right;
   margin-right;10px
-white-space: nowrap;
+  white-space: nowrap;
 }
 #name {
   width:480px
@@ -131,21 +131,24 @@ white-space: nowrap;
 #content {
   width: 480px;
 }
-.button {
+.submit {
   text-align: center;
 }
 
-button {
+.button:hover {
   opacity:0.5
-  width: 150px;
+}
+
+.button {
+  width:  80px;
   height: 50px;
   border: none;
   background-color: #008B8B;
-  color: white;
   font-size: 3rem;
-  margin: 10px 10px 10px 10px
+  color:#fff;  
   }
-}
+
+
 .footer{
   width: 100%;
   height: 100px;
